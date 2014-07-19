@@ -27,7 +27,7 @@ public class StateManager : MonoBehaviour {
 	void Start(){
 		activeSkin01 = title01;
 		activeSkin02 = title02;
-		checker = "MainMenu";
+		//checker = "MainMenu";
 		activeState = new MainMenu(this);
 	}
 
